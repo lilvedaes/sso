@@ -42,7 +42,7 @@
         <counts>
           <entry key="Python Console" value="23" />
           <entry key="html" value="35" />
-          <entry key="py" value="193" />
+          <entry key="py" value="218" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
@@ -50,7 +50,7 @@
         <counts>
           <entry key="HTML" value="35" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="216" />
+          <entry key="Python" value="241" />
         </counts>
       </usages-collector>
     </session>
@@ -72,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/emails.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+            <state relative-caret-position="484">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -314,8 +314,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/emails.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+        <state relative-caret-position="484">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
