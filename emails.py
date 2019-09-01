@@ -1,6 +1,5 @@
 import smtplib
-import os
-from boto.s3.connection import S3Connection
+from os import environ
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
@@ -46,7 +45,7 @@ def send_mail_helper(r, server, send_from, to):
 def send_mail(r):
     send_to = "daventuro@gmail.com"
     server_username = "daventuro@gmail.com"
-    server_password = S3Connection(os.environ['S3_KEY'], os.environ['S3_SECRET'])
+    server_password = environ.get('SSO_MAIL_PASS')
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
     server.login(server_username, server_password)
