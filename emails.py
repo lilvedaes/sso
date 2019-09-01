@@ -45,7 +45,7 @@ def send_mail_helper(r, server, send_from, to):
 def send_mail(r):
     send_to = "daventuro@gmail.com"
     server_username = "daventuro@gmail.com"
-    server_password = "Peruvian-whovian1"
+    server_password = "wtosmbpnhsejimwc"
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
     server.login(server_username, server_password)
