@@ -1,4 +1,5 @@
 import smtplib
+import os
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
@@ -10,20 +11,22 @@ def send_mail_helper(r, server, send_from, to):
     <html>
         <body>
             <p>
-                Somebody has sent you a message:
+                {} has sent you a message:
             </p>
             <ul>
                 <label>Data:</label>
                 <li>Email: {}</li>
                 <li>Phone: {}</li>
-                {}
             <ul>
+            <p>
+            Message: {}
+            </p>
         </body>
     </html>
-    """.format(r["interested_name"],
-               r["interested_email"],
-               r["interested_cellphone"],
-               r["interested_body"]
+    """.format(r["name"],
+               r["email"],
+               r["phone"],
+               r["body"]
         )
 
     mail = MIMEMultipart()
@@ -42,8 +45,7 @@ def send_mail_helper(r, server, send_from, to):
 def send_mail(r):
     send_to = "sso@utsc.utoronto.ca"
     server_username = "sso@utsc.utoronto.ca"
-    server_password = "Spanish2018"
-
+    server_password = os.environ.get(SSO_MAIL_PASS)
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
     server.login(server_username, server_password)
