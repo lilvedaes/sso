@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d37b4aa3-c024-442c-ae9a-fe810d1c645f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
+              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -88,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -134,8 +134,8 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/emails.py" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -317,13 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -337,7 +330,14 @@
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
