@@ -43,8 +43,8 @@ def send_mail_helper(r, server, send_from, to):
 
 
 def send_mail(r):
-    send_to = "daventuro@gmail.com"
-    server_username = "daventuro@gmail.com"
+    send_to = "Spanishorganizationutsc@gmail.com"
+    server_username = "Spanishorganizationutsc@gmail.com"
     server_password = environ.get('SSO_MAIL_PASS')
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
